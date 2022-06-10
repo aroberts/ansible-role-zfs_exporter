@@ -1,0 +1,5 @@
+---
+- name: restart zfs_exporter
+  service:
+    name: zfs_exporter
+    state: restarted
